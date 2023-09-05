@@ -1,4 +1,4 @@
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 export const config: Config = {
   networks: [

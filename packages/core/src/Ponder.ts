@@ -177,7 +177,7 @@ export class Ponder {
     // If any of the provided networks do not have a valid RPC url,
     // kill the app here. This happens here rather than in the constructor because
     // `ponder codegen` should still be able to if an RPC url is missing. In fact,
-    // that is part of the happy path for `create-ponder`.
+    // that is part of the happy path for `create-ponder-fork`.
     const networksMissingRpcUrl: Network[] = [];
     this.networkSyncServices.forEach(({ network }) => {
       if (!network.rpcUrl) {

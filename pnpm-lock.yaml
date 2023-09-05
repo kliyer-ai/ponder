@@ -61,7 +61,7 @@ importers:
       '@graphprotocol/graph-ts':
         specifier: ^0.31.0
         version: 0.31.0
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../packages/core
       '@types/node':
@@ -134,7 +134,7 @@ importers:
 
   examples/art-gobblers:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -144,9 +144,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -156,7 +156,7 @@ importers:
 
   examples/ethfs:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -166,9 +166,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -178,7 +178,7 @@ importers:
 
   examples/friendtech:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -197,7 +197,7 @@ importers:
 
   examples/token-erc20:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -207,9 +207,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -219,7 +219,7 @@ importers:
 
   examples/token-erc721:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -229,9 +229,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -241,7 +241,7 @@ importers:
 
   examples/token-reth:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -251,9 +251,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -263,7 +263,7 @@ importers:
 
   examples/with-docker:
     dependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: latest
         version: link:../../packages/core
     devDependencies:
@@ -273,9 +273,9 @@ importers:
       eslint:
         specifier: ^8.43.0
         version: 8.43.0
-      eslint-config-ponder:
+      eslint-config-ponder-fork:
         specifier: workspace:latest
-        version: link:../../packages/eslint-config-ponder
+        version: link:../../packages/eslint-config-ponder-fork
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -455,7 +455,7 @@ importers:
         specifier: ^0.29.2
         version: 0.29.2
 
-  packages/create-ponder:
+  packages/create-ponder-fork:
     dependencies:
       cac:
         specifier: ^6.7.14
@@ -485,7 +485,7 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
     devDependencies:
-      '@ponder/core':
+      '@ponder-fork/core':
         specifier: workspace:*
         version: link:../core
       '@types/node':
@@ -516,7 +516,7 @@ importers:
         specifier: ^0.29.2
         version: 0.29.2
 
-  packages/eslint-config-ponder:
+  packages/eslint-config-ponder-fork:
     dependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.3.0

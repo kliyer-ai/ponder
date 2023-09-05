@@ -1,4 +1,4 @@
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 import FileStoreAbi from "./abis/FileStore.json";
 import FileStoreFrontendAbi from "./abis/FileStoreFrontend.json";

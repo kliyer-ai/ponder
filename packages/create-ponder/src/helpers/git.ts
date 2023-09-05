@@ -36,7 +36,7 @@ export function tryGitInit(root: string): boolean {
     execSync("git checkout -b main", { stdio: "ignore" });
 
     execSync("git add -A", { stdio: "ignore" });
-    execSync('git commit -m "chore: initial commit from create-ponder"', {
+    execSync('git commit -m "chore: initial commit from create-ponder-fork"', {
       stdio: "ignore",
     });
     return true;

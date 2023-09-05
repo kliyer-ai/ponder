@@ -19,7 +19,7 @@ This filter includes all ERC20 `Transfer` events where the value of the `to` arg
 <div className="code-columns">
 
 ```ts filename="ponder.config.ts"
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 import { parseAbiItem } from "viem";
 
 export const config: Config = {
@@ -58,7 +58,7 @@ This filter includes all events emitted by any of the specified addresses. Note 
 <div className="code-columns">
 
 ```ts filename="ponder.config.ts"
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 export const config: Config = {
   filters: [
@@ -95,7 +95,7 @@ This filter includes all `Swap` events emitted by the two specified pools where 
 <div className="code-columns">
 
 ```ts filename="ponder.config.ts"
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 export const config: Config = {
   filters: [

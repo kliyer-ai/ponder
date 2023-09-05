@@ -1,4 +1,4 @@
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 import RocketTokenRETHAbi from "./abis/RocketTokenRETH.json";
 

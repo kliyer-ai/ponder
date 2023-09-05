@@ -1,5 +1,5 @@
 {
-  "create-ponder": "Create Ponder",
+  "create-ponder-fork": "Create Ponder",
   "event-handlers": "Event handlers",
   "ponder-config": "ponder.config.ts",
   "schema-graphql": "schema.graphql"

@@ -8,7 +8,7 @@ import { run } from "@/index";
 
 const tmpDir = "../../tmp";
 
-describe("create-ponder", () => {
+describe("create-ponder-fork", () => {
   afterAll(() => {
     fs.rmSync(tmpDir, { recursive: true, force: true });
   });
@@ -447,7 +447,7 @@ describe("create-ponder", () => {
 
   describe("eslint", () => {
     const lintFileName = ".eslintrc.json";
-    const ponderEslintConfig = "eslint-config-ponder";
+    const ponderEslintConfig = "eslint-config-ponder-fork";
 
     test("installs eslint if enabled", async () => {
       const rootDir = path.join(tmpDir, randomUUID());

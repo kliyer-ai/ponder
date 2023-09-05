@@ -2,7 +2,9 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
   "changelog": ["@changesets/changelog-github", { "repo": "0xOlias/ponder" }],
   "commit": false,
-  "fixed": [["@ponder/core", "create-ponder", "eslint-config-ponder"]],
+  "fixed": [
+    ["@ponder-fork/core", "create-ponder-fork", "eslint-config-ponder-fork"]
+  ],
   "linked": [],
   "access": "public",
   "baseBranch": "main",

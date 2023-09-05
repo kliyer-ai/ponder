@@ -1,4 +1,4 @@
-# create-ponder
+# create-ponder-fork
 
 ## 0.0.87
 
@@ -6,7 +6,7 @@
 
 ### Patch Changes
 
-- [#310](https://github.com/0xOlias/ponder/pull/310) [`2ba4b30`](https://github.com/0xOlias/ponder/commit/2ba4b3001402e629dd8956787686a44605c22fa0) Thanks [@eliobricenov](https://github.com/eliobricenov)! - Created `eslint-config-ponder` package and added a prompt to include it during `create-ponder`.
+- [#310](https://github.com/0xOlias/ponder/pull/310) [`2ba4b30`](https://github.com/0xOlias/ponder/commit/2ba4b3001402e629dd8956787686a44605c22fa0) Thanks [@eliobricenov](https://github.com/eliobricenov)! - Created `eslint-config-ponder-fork` package and added a prompt to include it during `create-ponder-fork`.
 
 ## 0.0.85
 
@@ -68,7 +68,7 @@
 
 ### Patch Changes
 
-- [#233](https://github.com/0xOlias/ponder/pull/233) [`1a44573`](https://github.com/0xOlias/ponder/commit/1a4457399ad33ab5652d054ded42bc5718cb5462) Thanks [@0xOlias](https://github.com/0xOlias)! - Added support for explorer.zora.energy links in `create-ponder` etherscan template.
+- [#233](https://github.com/0xOlias/ponder/pull/233) [`1a44573`](https://github.com/0xOlias/ponder/commit/1a4457399ad33ab5652d054ded42bc5718cb5462) Thanks [@0xOlias](https://github.com/0xOlias)! - Added support for explorer.zora.energy links in `create-ponder-fork` etherscan template.
 
 ## 0.0.64
 
@@ -88,7 +88,7 @@
 
 ### Patch Changes
 
-- [`b6c55c1`](https://github.com/0xOlias/ponder/commit/b6c55c185180f0efd50666b09efbdb20074f8906) Thanks [@0xOlias](https://github.com/0xOlias)! - Fixed bug where `create-ponder` Etherscan template would not work for old (non-compliant) EIP-1967 proxies
+- [`b6c55c1`](https://github.com/0xOlias/ponder/commit/b6c55c185180f0efd50666b09efbdb20074f8906) Thanks [@0xOlias](https://github.com/0xOlias)! - Fixed bug where `create-ponder-fork` Etherscan template would not work for old (non-compliant) EIP-1967 proxies
 
 ## 0.0.56
 
@@ -156,7 +156,7 @@
 
 ### Patch Changes
 
-- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @ponder/core internals and updated `ponder dev` logs
+- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @ponder-fork/core internals and updated `ponder dev` logs
 
 ## 0.0.19
 
@@ -208,7 +208,7 @@
   });
   ```
 
-  Updated `create-ponder` to use this pattern for newly generated projects
+  Updated `create-ponder-fork` to use this pattern for newly generated projects
 
 - [#72](https://github.com/0xOlias/ponder/pull/72) [`df3ec60`](https://github.com/0xOlias/ponder/commit/df3ec601852556be788335c016c99710c4277487) Thanks [@0xOlias](https://github.com/0xOlias)! - **BREAKING** Changes ponder config naming.
 
@@ -231,7 +231,7 @@
 
 ### Patch Changes
 
-- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - Generate ponder.ts according to new format from @ponder/core
+- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - Generate ponder.ts according to new format from @ponder-fork/core
 
 ## 0.0.11
 

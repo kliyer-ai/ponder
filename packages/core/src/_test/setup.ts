@@ -24,10 +24,10 @@ import { FORK_BLOCK_NUMBER, FORK_URL, vitalik } from "./constants";
 import { poolId, testClient } from "./utils";
 
 /**
- * Set up a package alias so we can reference `@ponder/core` by name in test files.
+ * Set up a package alias so we can reference `@ponder-fork/core` by name in test files.
  */
 const ponderCoreDir = path.resolve(__dirname, "../../");
-moduleAlias.addAlias("@ponder/core", ponderCoreDir);
+moduleAlias.addAlias("@ponder-fork/core", ponderCoreDir);
 
 /**
  * Inject an isolated event store into the test context.

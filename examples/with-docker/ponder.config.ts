@@ -1,4 +1,4 @@
-import type { Config } from "@ponder/core";
+import type { Config } from "@ponder-fork/core";
 
 if (!process.env.PONDER_RPC_URL_1) {
   throw new Error("Missing PONDER_RPC_URL_1 environment variable");
