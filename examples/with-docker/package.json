@@ -7,7 +7,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@ponder-fork/core": "latest"
+    "@nickstracke/ponder-core": "latest"
   },
   "devDependencies": {
     "abitype": "^0.8.11",

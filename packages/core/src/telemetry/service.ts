@@ -214,7 +214,7 @@ export class TelemetryService {
       ? JSON.parse(fs.readFileSync("package.json", "utf8"))
       : undefined;
     const ponderVersion = packageJson
-      ? packageJson["dependencies"]["@ponder-fork/core"]
+      ? packageJson["dependencies"]["@nickstracke/ponder-core"]
       : "unknown";
 
     const cpus = os.cpus() || [];

@@ -155,7 +155,7 @@ If you're interested in contributing to Ponder, please read the [contribution gu
 
 ## Packages
 
-- `@ponder-fork/core`
+- `@nickstracke/ponder-core`
 - `create-ponder-fork`
 
 ## About
@@ -166,7 +166,7 @@ Ponder is MIT-licensed open-source software.
 [ci-url]: https://github.com/0xOlias/ponder/actions/workflows/main.yml
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=Support&url=https%3A%2F%2Fmogyo.ro%2Fquart-apis%2Ftgmembercount%3Fchat_id%3Dponder_sh
 [tg-url]: https://t.me/ponder_sh
-[license-badge]: https://img.shields.io/npm/l/@ponder-fork/core
+[license-badge]: https://img.shields.io/npm/l/@nickstracke/ponder-core
 [license-url]: https://github.com/0xOlias/ponder/blob/main/LICENSE
-[version-badge]: https://img.shields.io/npm/v/@ponder-fork/core
+[version-badge]: https://img.shields.io/npm/v/@nickstracke/ponder-core
 [version-url]: https://github.com/0xOlias/ponder/releases

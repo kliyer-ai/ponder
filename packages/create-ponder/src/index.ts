@@ -133,7 +133,7 @@ export const run = async (
 
   // Write the ponder.config.ts file.
   const finalConfig = `
-    import type { Config } from "@ponder-fork/core";
+    import type { Config } from "@nickstracke/ponder-core";
 
     export const config: Config = {
       networks: ${JSON.stringify(config.networks).replaceAll(
@@ -169,7 +169,7 @@ export const run = async (
         "codegen": "ponder codegen"
       },
       "dependencies": {
-        "@ponder-fork/core": "${ponderVersion}",
+        "@nickstracke/ponder-core": "${ponderVersion}",
       },
       "devDependencies": {
         ${

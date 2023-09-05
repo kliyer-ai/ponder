@@ -61,7 +61,7 @@ importers:
       '@graphprotocol/graph-ts':
         specifier: ^0.31.0
         version: 0.31.0
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../packages/core
       '@types/node':
@@ -134,7 +134,7 @@ importers:
 
   examples/art-gobblers:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -156,7 +156,7 @@ importers:
 
   examples/ethfs:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -178,7 +178,7 @@ importers:
 
   examples/friendtech:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -197,7 +197,7 @@ importers:
 
   examples/token-erc20:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -219,7 +219,7 @@ importers:
 
   examples/token-erc721:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -241,7 +241,7 @@ importers:
 
   examples/token-reth:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:latest
         version: link:../../packages/core
     devDependencies:
@@ -263,7 +263,7 @@ importers:
 
   examples/with-docker:
     dependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: latest
         version: link:../../packages/core
     devDependencies:
@@ -485,7 +485,7 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
     devDependencies:
-      '@ponder-fork/core':
+      '@nickstracke/ponder-core':
         specifier: workspace:*
         version: link:../core
       '@types/node':

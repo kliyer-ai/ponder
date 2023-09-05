@@ -156,7 +156,7 @@
 
 ### Patch Changes
 
-- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @ponder-fork/core internals and updated `ponder dev` logs
+- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @nickstracke/ponder-core internals and updated `ponder dev` logs
 
 ## 0.0.19
 
@@ -231,7 +231,7 @@
 
 ### Patch Changes
 
-- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - Generate ponder.ts according to new format from @ponder-fork/core
+- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - Generate ponder.ts according to new format from @nickstracke/ponder-core
 
 ## 0.0.11
 

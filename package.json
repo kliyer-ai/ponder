@@ -3,7 +3,7 @@
   "scripts": {
     "bench": "pnpm --filter './benchmarks' bench",
     "bench:ci": "pnpm --filter './benchmarks' bench:ci",
-    "build": "pnpm --filter '@ponder-fork/core' build && pnpm --filter './packages/*' --filter '!@ponder-fork/core' --parallel build",
+    "build": "pnpm --filter '@nickstracke/ponder-core' build && pnpm --filter './packages/*' --filter '!@nickstracke/ponder-core' --parallel build",
     "changeset:release": "pnpm build && changeset publish",
     "changeset:version": "changeset version && pnpm install --lockfile-only",
     "install:packages": "pnpm --filter './packages/**' install",
@@ -14,10 +14,10 @@
     "preinstall": "npx -y only-allow pnpm",
     "prepare": "npx simple-git-hooks",
     "test": "pnpm --parallel --no-bail test",
-    "test:core": "pnpm --filter '@ponder-fork/core' test",
+    "test:core": "pnpm --filter '@nickstracke/ponder-core' test",
     "test:create-ponder-fork": "pnpm --filter 'create-ponder-fork' test",
     "test:ci": "pnpm --parallel --no-bail test:ci",
-    "test:ci:core": "pnpm --filter '@ponder-fork/core' test:ci",
+    "test:ci:core": "pnpm --filter '@nickstracke/ponder-core' test:ci",
     "test:ci:create-ponder-fork": "pnpm --filter 'create-ponder-fork' test:ci",
     "typecheck": "pnpm --parallel typecheck"
   },

@@ -31,7 +31,7 @@
     "yaml": "^2.1.1"
   },
   "devDependencies": {
-    "@ponder-fork/core": "workspace:*",
+    "@nickstracke/ponder-core": "workspace:*",
     "@types/node": "^18.7.8",
     "@types/node-fetch": "2",
     "@types/prettier": "^2.7.1",

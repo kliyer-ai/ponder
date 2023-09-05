@@ -46,7 +46,7 @@ type RawHandlerFunctions = {
   };
 };
 
-// @ponder-fork/core creates an instance of this class called `ponder`
+// @nickstracke/ponder-core creates an instance of this class called `ponder`
 export class PonderApp<
   EventHandlers = Record<string, LogEventHandlerFunction>
 > {

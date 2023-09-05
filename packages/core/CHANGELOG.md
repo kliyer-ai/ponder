@@ -1,4 +1,4 @@
-# @ponder-fork/core
+# @nickstracke/ponder-core
 
 ## 0.0.87
 
@@ -248,7 +248,7 @@
 
   ```ts
   // ponder.config.ts
-  import type { Config } from "@ponder-fork/core";
+  import type { Config } from "@nickstracke/ponder-core";
   import { parseAbiItem } from "abitype";
 
   export const config: Config = {
@@ -275,7 +275,7 @@
 
   ```diff
   // ponder.config.ts
-  import type { Config } from "@ponder-fork/core";
+  import type { Config } from "@nickstracke/ponder-core";
   export const config: Config = {
     networks: [ /* ... */ ],
     contracts: [
@@ -443,7 +443,7 @@
 
 ### Patch Changes
 
-- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @ponder-fork/core internals and updated `ponder dev` logs
+- [#114](https://github.com/0xOlias/ponder/pull/114) [`857f099`](https://github.com/0xOlias/ponder/commit/857f0997263e9c816bc6ad2695d9a03bcf269672) Thanks [@0xOlias](https://github.com/0xOlias)! - Refactored @nickstracke/ponder-core internals and updated `ponder dev` logs
 
 ## 0.0.36
 
@@ -477,7 +477,7 @@
 
 - [#101](https://github.com/0xOlias/ponder/pull/101) [`08d5157`](https://github.com/0xOlias/ponder/commit/08d515796b8a737a9f5c4210aefcc89e879a8a7e) Thanks [@0xOlias](https://github.com/0xOlias)! - Removed notion of plugins
 
-  Moved HTTP server from `@ponder/graphql` to `@ponder-fork/core`
+  Moved HTTP server from `@ponder/graphql` to `@nickstracke/ponder-core`
 
   **BREAKING**. Ponder apps no longer depend on `@ponder/graphql` and do not need to include the `plugins` key in `ponder.config.ts`.
 
@@ -494,7 +494,7 @@
       "codegen": "ponder codegen"
     },
     "dependencies": {
-      "@ponder-fork/core": "^0.0.32",
+      "@nickstracke/ponder-core": "^0.0.32",
   -   "@ponder/graphql": "latest"
     },
     "devDependencies": {
@@ -510,7 +510,7 @@
   ```diff
   // ponder.config.ts
 
-  import type { Config } from "@ponder-fork/core";
+  import type { Config } from "@nickstracke/ponder-core";
   - import { graphqlPlugin } from "@ponder/graphql";
 
   export const config: Config = {
@@ -621,14 +621,14 @@
 
 ### Patch Changes
 
-- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - BREAKING! Updated ponder config to support typescript and to be called `ponder.ts` by default. `ponder.ts` must export a variable named `config` that is of the type `import { Config } from "@ponder-fork/core"`. The `database` field in ponder config is now optional. By default, it uses `SQLite` with a filename of `./.ponder/cache.db`. If the environment variable `DATABASE_URL` is detected, it uses `Postgres` with that value as the `connectionString`.
+- [#57](https://github.com/0xOlias/ponder/pull/57) [`3f358dd`](https://github.com/0xOlias/ponder/commit/3f358dddbcb4c0f7dfe427a9db847bd2388be019) Thanks [@0xOlias](https://github.com/0xOlias)! - BREAKING! Updated ponder config to support typescript and to be called `ponder.ts` by default. `ponder.ts` must export a variable named `config` that is of the type `import { Config } from "@nickstracke/ponder-core"`. The `database` field in ponder config is now optional. By default, it uses `SQLite` with a filename of `./.ponder/cache.db`. If the environment variable `DATABASE_URL` is detected, it uses `Postgres` with that value as the `connectionString`.
 
   New sample `ponder.ts` file:
 
   ```ts
   // ponder.ts
 
-  import type { Config } from "@ponder-fork/core";
+  import type { Config } from "@nickstracke/ponder-core";
   import { graphqlPlugin } from "@ponder/graphql";
 
   export const config: Config = {
@@ -657,7 +657,7 @@
   ```ts
   // ponder.ts
 
-  import type { Config } from "@ponder-fork/core";
+  import type { Config } from "@nickstracke/ponder-core";
 
   export const config: Config = async () => {
     return {

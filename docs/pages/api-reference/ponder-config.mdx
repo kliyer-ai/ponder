@@ -92,7 +92,7 @@ See [Deploy to production](/guides/production) for more details.
 ### Basic example
 
 ```ts filename="ponder.config.ts"
-import type { Config } from "@ponder-fork/core";
+import type { Config } from "@nickstracke/ponder-core";
 
 export const config: Config = {
   networks: [
@@ -118,7 +118,7 @@ export const config: Config = {
 
 {/* prettier-ignore */}
 ```ts filename="ponder.config.ts"
-import type { Config } from "@ponder-fork/core";
+import type { Config } from "@nickstracke/ponder-core";
 
 export const config: Config = async () => {
   const startBlock = await fetch("http://...");
