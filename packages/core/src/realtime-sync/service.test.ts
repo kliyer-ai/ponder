@@ -8,7 +8,6 @@ import { publicClient, testClient, walletClient } from "@/_test/utils";
 import { encodeLogFilterKey } from "@/config/logFilterKey";
 import type { LogFilter } from "@/config/logFilters";
 import type { Network } from "@/config/networks";
-import { blobToBigInt } from "@/utils/decode";
 import { range } from "@/utils/range";
 
 import { RealtimeSyncService } from "./service";
@@ -93,7 +92,7 @@ test("adds blocks to the store from finalized to latest", async (context) => {
 
   const blocks = await eventStore.db.selectFrom("blocks").selectAll().execute();
   expect(blocks).toHaveLength(5);
-  expect(blocks.map((block) => blobToBigInt(block.number))).toMatchObject([
+  expect(blocks.map((block) => (block.number))).toMatchObject([
     16379996n,
     16379997n,
     16379998n,
@@ -190,7 +189,7 @@ test("handles new blocks", async (context) => {
   const blocks = await eventStore.db.selectFrom("blocks").selectAll().execute();
   expect(blocks).toHaveLength(7);
 
-  expect(blocks.map((block) => blobToBigInt(block.number))).toMatchObject([
+  expect(blocks.map((block) => (block.number))).toMatchObject([
     16379996n,
     16379997n,
     16379998n,
@@ -233,7 +232,7 @@ test("handles error while fetching new latest block gracefully", async (context)
 
   const blocks = await eventStore.db.selectFrom("blocks").selectAll().execute();
   expect(blocks).toHaveLength(6);
-  expect(blocks.map((block) => blobToBigInt(block.number))).toMatchObject([
+  expect(blocks.map((block) => (block.number))).toMatchObject([
     16379996n,
     16379997n,
     16379998n,
@@ -352,7 +351,7 @@ test("removes data from the store after 3 block shallow reorg", async (context) 
   await service.onIdle();
 
   const blocks = await eventStore.db.selectFrom("blocks").selectAll().execute();
-  expect(blocks.map((block) => blobToBigInt(block.number))).toMatchObject([
+  expect(blocks.map((block) => (block.number))).toMatchObject([
     16379996n,
     16379997n,
     16379998n,
@@ -382,7 +381,7 @@ test("removes data from the store after 3 block shallow reorg", async (context) 
     .selectAll()
     .execute();
   expect(
-    blocksAfterReorg.map((block) => blobToBigInt(block.number))
+    blocksAfterReorg.map((block) => (block.number))
   ).toMatchObject([
     16379996n,
     16379997n,
