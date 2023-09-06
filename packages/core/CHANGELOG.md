@@ -1,5 +1,11 @@
 # @nickstracke/ponder-core
 
+## 0.0.89
+
+### Patch Changes
+
+- [`4a320ea`](https://github.com/kliyer-ai/ponder/commit/4a320ea0ca4748dd2db1ad6753f6cc7289243463) Thanks [@kliyer-ai](https://github.com/kliyer-ai)! - create view for current table
+
 ## 0.0.88
 
 ### Patch Changes
