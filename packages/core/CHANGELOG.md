@@ -1,5 +1,11 @@
 # @nickstracke/ponder-core
 
+## 0.0.88
+
+### Patch Changes
+
+- [#3](https://github.com/kliyer-ai/ponder/pull/3) [`7af5ebd`](https://github.com/kliyer-ai/ponder/commit/7af5ebd3b5a7c43a80f0015f95a30283e0201771) Thanks [@kliyer-ai](https://github.com/kliyer-ai)! - use numeric32 for bigint on postgres instead of bytea
+
 ## 0.0.87
 
 ### Patch Changes
