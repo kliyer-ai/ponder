@@ -1,5 +1,5 @@
 ---
-"@ponder/core": patch
+"@nickstracke/ponder-core": patch
 ---
 
 use numeric32 for bigint on postgres instead of bytea
