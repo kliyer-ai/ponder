@@ -1,5 +1,11 @@
 # @nickstracke/ponder-core
 
+## 0.0.90
+
+### Patch Changes
+
+- [`0ea7918`](https://github.com/kliyer-ai/ponder/commit/0ea7918470d5416010156ed7f0157d68a1a2f0e7) Thanks [@kliyer-ai](https://github.com/kliyer-ai)! - add missing execute
+
 ## 0.0.89
 
 ### Patch Changes
