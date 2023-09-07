@@ -1,5 +1,11 @@
 # @nickstracke/ponder-core
 
+## 0.0.91
+
+### Patch Changes
+
+- [`4c36f4d`](https://github.com/kliyer-ai/ponder/commit/4c36f4db916168585618d34cdd59fd0539bc22a4) Thanks [@kliyer-ai](https://github.com/kliyer-ai)! - use numeric 78 instead of 32
+
 ## 0.0.90
 
 ### Patch Changes
